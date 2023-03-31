@@ -1,15 +1,18 @@
 {
   "Vue3.2+快速生成模板": {
-    "prefix": "Vue3.2+",
+    "prefix": "vue-code",
     "body": [
       "<script setup lang='ts'>",
-      "</script>\n",
+      "defineOptions({",
+      "  name: ''",
+      "});",
+      "</script>",
+      "",
       "<template>",
-      "\t<div>\n",
-      "\t</div>",
-      "</template>\n",
-      "<style scoped>\n",
-      "</style>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<style scoped></style>",
       "$2"
     ],
     "description": "Vue3.2+"
