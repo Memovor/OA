@@ -1,25 +1,25 @@
 {
-  "compilerOptions": {
-    "types": [
-      "vite/client",
-      "vite-plugin-pages/client",
-      "vite-plugin-vue-layouts/client",
-      // 在Vue3 setup语法糖中,自定义组件的name属性 全局自动注册
-      "unplugin-vue-define-options/macros-global"
-    ],
-    "module": "esnext",
-    "target": "esnext",
-    "lib": ["esnext", "dom"],
-    "esModuleInterop": true,
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
-    // 绝对路径配置
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+    "compilerOptions": {
+        "types": [
+            "vite/client",
+            "vite-plugin-pages/client",
+            "vite-plugin-vue-layouts/client",
+            // 在Vue3 setup语法糖中,自定义组件的name属性 全局自动注册
+            "unplugin-vue-define-options/macros-global"
+        ],
+        "module": "esnext",
+        "target": "esnext",
+        "lib": ["esnext", "dom"],
+        "esModuleInterop": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        // 绝对路径配置
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
